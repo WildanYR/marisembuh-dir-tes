@@ -107,6 +107,9 @@ function loadCSS(id, url) {
   }
 }
 
-loadCSS('question-style', 'http://arrosa.ddns.net:8080/style.css')
+loadCSS(
+  'question-style',
+  'https://cdn.jsdelivr.net/gh/WildanYR/marisembuh-dir-tes@main/style.css',
+)
 toggleTestDisplay(true)
 showQuestion()
