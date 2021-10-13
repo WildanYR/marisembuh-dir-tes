@@ -106,5 +106,6 @@ function loadCSS(id, url) {
     head.appendChild(link)
   }
 }
+
 toggleTestDisplay(true)
 showQuestion()
