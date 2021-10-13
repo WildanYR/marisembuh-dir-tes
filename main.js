@@ -106,10 +106,5 @@ function loadCSS(id, url) {
     head.appendChild(link)
   }
 }
-
-loadCSS(
-  'question-style',
-  'https://cdn.jsdelivr.net/gh/WildanYR/marisembuh-dir-tes@main/style.css',
-)
 toggleTestDisplay(true)
 showQuestion()
